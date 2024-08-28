@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 202, 213);
+    align-items: center;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #e11c47;
+    text-decoration: none;
+}
+
+nav button {
+    width: 77px;
+    background-color: #ffe0e7;
+    border: 3px solid #f6aab6;
+    border-radius: 4px;
+    height: 33px;
+    color: black;
+    font-size: 12px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+button:hover {
+    background-color: #e11c47;
+    border: 3px solid #f6aab6;
+    color: white;
+}
+
+h1 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e11c47;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    font-family: "Rubik Bubbles", sans-serif;
+    background-color: #ffe0e7;
+    color: #e11c47;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bestsellers {
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.donut {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color:  rgb(240, 202, 213);
+    width: 80%;
+    border-radius: 19px;
+    transition: transform 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+}
+.donut:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.donut-info {
+    margin-left: 60px;
+    display: flex;
+}
+
+.donut img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.donut h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+meter {
+    width: 118px;
+    height: 20px;
+    margin-right: 22px;
+}
+.average-rating{
+    margin-left: 90px;
+    margin-top: 44px;
+}
+
+.rate {
+    display: flex;
+}
+.rate p {
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.rate i {
+    color: #e11c47;
+    font-size: 24px;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.collection{
+    width: 300px;
+}
+
+
+.reviews {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.review-slide {
+    background-color: #fff;
+    border: 2px solid #e11c47;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#reviewForm {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reviewForm input,
+#reviewForm textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #e11c47;
+    border-radius: 5px;
+}
+
+#reviewForm button {
+    padding: 10px 20px;
+    background-color: #e11c47;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+meter::-webkit-meter-bar {
+    background: #f0f0f0;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #e89797;
+}
+
+meter::-webkit-meter-suboptimum-value {
+    background: #e89797;
+}
+
+meter::-webkit-meter-even-less-good-value {
+    background: #e89797;
+}
+
+
+
+
+
+
+
