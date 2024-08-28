@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuteria</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="img/icon.jpg">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="Reviews&BestSellers.html">BestSellers</a></li>
+          <li><a href="Nutrition.html">Nutrition Info</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>     
+        <a href="index.html"><button >Logout</button></a>
+      </nav>
+      <div class="Main-cart">
+        <div class="cart-intro">
+            <h1>Welcome to Donuteria</h1>
+          </div>
+          <div class="cart-head">
+            <a href="#cart">View Cart</a>
+            <i class="fa-solid fa-cart-shopping"></i> 
+        </div>
+      </div>
+      
+    
+    
+    <div class="donuts">
+        <div class="donut">
+            <img src="img/Chocolate.png" alt="Chocolate Donut" class="donut-image">
+            <h2>Chocolate Donut</h2>
+            <p>price: 60$</p>
+            <button onclick="addToCart('Chocolate Donut', 60)">Add to Cart</button>
+            <button onclick="showIngredients('Chocolate Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Chocolate Chips.jpg" alt="Chocolate Chips Donut" class="donut-image">
+            <h2>Chocolate Chips Donut</h2>
+            <p>Price: 65$</p>
+            <button onclick="addToCart('Chocolate Chips Donut', 65)">Add to Cart</button>
+            <button onclick="showIngredients('Chocolate Chips Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Beach Ball.png" alt="Beach Ball Donut" class="donut-image" width="70px">
+            <h2>Beach Ball Donut</h2>
+            <p>Price: 70$</p>
+            <button onclick="addToCart('Beach Ball Donut', 70)">Add to Cart</button>
+            <button onclick="showIngredients('Beach Ball Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/BlueBerry.jpg" alt="BlueBerry Donut" class="donut-image">
+            <h2>BlueBerry Donut</h2>
+            <p>Price: 80$</p>
+            <button onclick="addToCart('BlueBerry Donut', 80)">Add to Cart</button>
+            <button onclick="showIngredients('BlueBerry Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Peanut Butter & Jelly.png" alt="Peanut Butter & Jelly Donut" class="donut-image">
+            <h2>Peanut Butter & Jelly Donut</h2>
+            <p>Price: 90$</p>
+            <button onclick="addToCart('Peanut Butter & Jelly Donut', 90)">Add to Cart</button>
+            <button onclick="showIngredients('Peanut Butter & Jelly Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Cinnamon.png" alt="Cinnamon Donut" class="donut-image">
+            <h2>Cinnamon Donut</h2>
+            <p>Price: 55$</p>
+            <button onclick="addToCart('Cinnamon Donut', 55)">Add to Cart</button>
+            <button onclick="showIngredients('Cinnamon Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/French Toast.png" alt="French Toast Donut" class="donut-image">
+            <h2>French Toast Donut</h2>
+            <p>Price: 50$</p>
+            <button onclick="addToCart('French Toast Donut', 50)">Add to Cart</button>
+            <button onclick="showIngredients('French Toast Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Raspberry.png" alt="Raspberry Donut" class="donut-image">
+            <h2>Raspberry Donut</h2>
+            <p>Price: 90$</p>
+            <button onclick="addToCart('Raspberry Donut', 90)">Add to Cart</button>
+            <button onclick="showIngredients('Raspberry Donut')">Check Ingredients</button>
+        </div>
+        
+        <div class="donut">
+            <img src="img/Strawberry Sprinkles.png" alt="Strawberry Sprinkles Donut" class="donut-image">
+            <h2>Strawberry Sprinkles Donut</h2>
+            <p>Price: 70$</p>
+            <button onclick="addToCart('Strawberry Sprinkles Donut', 70)">Add to Cart</button>
+            <button onclick="showIngredients('Strawberry Sprinkles Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Pina-Colada.png" alt="Pina-Colada Donut" class="donut-image">
+            <h2>Pina-Colada Donut</h2>
+            <p>Price: 100$</p>
+            <button onclick="addToCart('Pina-Colada Donut', 100)">Add to Cart</button>
+            <button onclick="showIngredients('Pina-Colada Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Cookies & Cream.png" alt="Cookies & Cream Donut"  class="donut-image">
+            <h2>Cookies & Cream Donut</h2>
+            <p>Price: 95$</p>
+            <button onclick="addToCart('Cookies & Cream Donut', 95)">Add to Cart</button>
+            <button onclick="showIngredients('Cookies & Cream Donut')">Check Ingredients</button>
+        </div>
+        <div class="donut">
+            <img src="img/Coconut Island Bliss.png" alt="Coconut Island Bliss Donut"  class="donut-image">
+            <h2>Coconut Island Bliss Donut</h2>
+            <p>Price: 90$</p>
+            <button onclick="addToCart('Coconut Island Bliss Donut', 90)">Add to Cart</button>
+            <button onclick="showIngredients('Coconut Island Bliss Donut')">Check Ingredients</button>
+        </div>
+        
+    </div>
+    
+    <h2>Your Cart</h2>
+    <div class="cart" id="cart">
+        <div id="cartItems"></div>
+        <p>Total Price: <span id="totalPrice">0</span>$</p>
+        <button onclick="checkout()">Checkout</button>
+    </div>    
+
+    <div id="ingredientModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="ingredientTitle"></h2>
+            <p id="ingredientList"></p>
+        </div>
+    </div>
+    
+    <script src="js/cart.js"></script>
+</body>
+</html>

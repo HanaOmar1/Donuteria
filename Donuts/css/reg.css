@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(240, 202, 213);
+}
+h1{
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;   
+    color: #e11c47;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+form{
+   display: flex;
+  align-items: center;
+   flex-direction: column;
+}
+#username,#password,#email,#city {
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#username,#password,#email,#city {
+    height: 42px;
+    border-radius: 6px;
+    border: 2px solid pink;
+    width: 379px;
+}
+#city{
+    width: 387px;
+}
+button{
+    width: 71px;
+    font-size:17px;
+    background-color: #ffe0e7;
+    border: 3px solid #f6aab6;
+    border-radius: 4px;
+    height: 35px;
+}button:hover {
+    background-color: #e11c47; 
+    border: 3px solid #f6aab6;
+   color:white;
+}

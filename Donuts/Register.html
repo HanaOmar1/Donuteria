@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/reg.css">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+   <link rel="icon" href="img/icon.jpg">
+    
+</head>
+<body>
+        <h1> Register Now</h1>
+        <form>
+            <input type="text" id="username" placeholder="  Username" required>
+            <input type="password" id="password" placeholder="  Password" minlength="6" required>
+            <input type="email" id="email" placeholder="  E-mail" required>
+            <select id="city" required> 
+                <option value="" disabled selected>Choose the city</option>
+                <option value="Nasr City">Nasr City</option> 
+                <option value="Sheraton">Sheraton</option>   
+                <option value="Gesr Suez">Gesr Suez</option>
+                <option value="Nozha">Nozha</option> 
+                <option value="New Cairo">New Cairo</option> 
+                <option value="Maadi">Maadi</option>   
+                <option value="Heliopolis">Heliopolis</option>
+                <option value="Obour">Obour</option>
+                <option value="Smart Village">Smart Village</option> 
+            </select>
+            <button id="Done">Sign in</button>
+        </form>
+        <script src="js/reg.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 202, 213);
+    align-items: center;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #e11c47;
+    text-decoration: none;
+}
+
+nav button {
+    width: 77px;
+    background-color: #ffe0e7;
+    border: 3px solid #f6aab6;
+    border-radius: 4px;
+    height: 33px;
+    color: black;
+    font-size: 12px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+button:hover {
+    background-color: #e11c47;
+    border: 3px solid #f6aab6;
+    color: white;
+}
+h2 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e11c47;
+    font-size: 50px;
+    text-align: center;
+}
+
+#nutritionalInfo {
+    padding: 20px;
+    background-color: #f3e4e8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+table thead tr th{
+ background-color: #ddc7cb;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:#f4f4f4;
+}

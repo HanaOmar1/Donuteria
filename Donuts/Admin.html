@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuteria</title>
+    <link rel="stylesheet" href="css/Admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.jpg">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><button class="bbb">Add A Product</button></li>
+          <li><button id="remove-product-btn" class="bbb">Remove A Product</button></li>
+          <li><button id="showAllUsersBtn" class="bbb">Display Users</button></li>
+        </ul>     
+        <a href="index.html"><button class="logout">Logout</button></a>
+    </nav>
+    <div id="usersModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="closeModal1()">&times;</span>
+          <h2>Users</h2>
+          <div id="usersContainer"></div>
+        </div>
+      </div>
+    <h1>Welcome to Donuteria</h1>
+    <div class="donuts">
+        <div class="donut">
+            <img src="img/Chocolate.png" alt="Chocolate Donut" class="donut-image">
+            <h2>Chocolate Donut</h2>
+            <p>price: 60$</p>
+            
+        </div>
+        <div class="donut">
+            <img src="img/Chocolate Chips.jpg" alt="Chocolate Chips Donut" class="donut-image">
+            <h2>Chocolate Chips Donut</h2>
+            <p>Price: 65$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Beach Ball.png" alt="Beach Ball Donut" class="donut-image" width="70px">
+            <h2>Beach Ball Donut</h2>
+            <p>Price: 70$</p>
+        </div>
+        <div class="donut">
+            <img src="img/BlueBerry.jpg" alt="BlueBerry Donut" class="donut-image">
+            <h2>BlueBerry Donut</h2>
+            <p>Price: 80$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Peanut Butter & Jelly.png" alt="Peanut Butter & Jelly Donut" class="donut-image">
+            <h2>Peanut Butter & Jelly Donut</h2>
+            <p>Price: 90$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Cinnamon.png" alt="Cinnamon Donut" class="donut-image">
+            <h2>Cinnamon Donut</h2>
+            <p>Price: 55$</p>
+        </div>
+        <div class="donut">
+            <img src="img/French Toast.png" alt="French Toast Donut" class="donut-image">
+            <h2>French Toast Donut</h2>
+            <p>Price: 50$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Raspberry.png" alt="Raspberry Donut" class="donut-image">
+            <h2>Raspberry Donut</h2>
+            <p>Price: 90$</p>
+        </div>
+        
+        <div class="donut">
+            <img src="img/Strawberry Sprinkles.png" alt="Strawberry Sprinkles Donut" class="donut-image">
+            <h2>Strawberry Sprinkles Donut</h2>
+            <p>Price: 70$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Pina-Colada.png" alt="Pina-Colada Donut" class="donut-image">
+            <h2>Pina-Colada Donut</h2>
+            <p>Price: 100$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Cookies & Cream.png" alt="Cookies & Cream Donut"  class="donut-image">
+            <h2>Cookies & Cream Donut</h2>
+            <p>Price: 95$</p>
+        </div>
+        <div class="donut">
+            <img src="img/Coconut Island Bliss.png" alt="Coconut Island Bliss Donut"  class="donut-image">
+            <h2>Coconut Island Bliss Donut</h2>
+            <p>Price: 90$</p>
+        </div>
+        
+    </div>
+    <script src="js/reg.js"></script>
+    <script src="./js/Admin.js"></script>
+</body>
+</html>
